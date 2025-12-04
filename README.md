@@ -6,78 +6,79 @@ Design and develop an Academic Management System using SQL. The projects should 
 
 The Aim is to create a system that allows for managing student information and course enrollment.
 
-**Academic Management System (SQL Project)**
+# Academic Management System
 
-**Author: Manirathinam P T**
+## Project Overview
+A comprehensive SQL-based Academic Management System designed to manage student information, course details, and enrollment records efficiently.
 
-**Project Overview**
+## Database Structure
 
-The Academic Management System is an SQL-based project designed to manage student information, courses, and enrollments.
-It demonstrates database creation, relational modeling, data insertion, retrieval operations, and analytical reporting using SQL.
+### Tables
+1. **StudentInfo** - Stores student personal and contact information
+2. **CoursesInfo** - Contains course and instructor details
+3. **EnrollmentInfo** - Manages student course enrollments with foreign key relationships
 
-This project simulates a real-world academic environment where administrators can maintain and analyze academic records.
+## Features
 
-**Project Structure**
+### 1. Database Creation
+- Created three interconnected tables with proper constraints
+- Implemented foreign key relationships for data integrity
+- Structured schema for academic data management
 
-**StudentInfo**
+### 2. Data Management
+- Sample data insertion for all tables
+- Student records with complete contact information
+- Course catalog with instructor assignments
+- Enrollment tracking system
 
-Stores personal and academic details of students.
-Columns: STU_ID, STU_NAME, DOB, PHONE_NO, EMAIL_ID, ADDRESS
+### 3. Student Information Retrieval
+- Query student details and contact information
+- Retrieve enrollment status for individual students
+- List courses for specific students
+- Fetch course information with instructor details
+- Multi-course information queries
 
-**CoursesInfo**
+### 4. Reporting and Analytics
+- Count of students enrolled in each course
+- Student lists for specific courses
+- Enrollment statistics per instructor
+- Identification of students in multiple courses
+- Course popularity ranking by enrollment numbers
 
-Stores course-level details.
-Columns: COURSE_ID, COURSE_NAME, COURSE_INSTRUCTOR
+## Technologies Used
+- **Database:** MySQL
+- **Language:** SQL
 
-**EnrollmentInfo**
+## Key SQL Concepts Demonstrated
+- Database and table creation
+- Primary and foreign key constraints
+- INSERT operations
+- SELECT queries with filtering
+- JOIN operations (INNER JOIN, LEFT JOIN)
+- Aggregate functions (COUNT, GROUP BY)
+- Sorting and ordering (ORDER BY)
+- Subqueries
 
-Tracks enrollments of students in different courses.
-Columns: ENROLLMENT_ID, STU_ID, COURSE_ID, ENROLL_STATUS
-Includes FOREIGN KEY constraints referencing StudentInfo and CoursesInfo.
+## Project Files
+- `TaskA_Academic_mgmt_system.sql` - Complete SQL code with all tasks
+- Screenshots folder containing output images for all queries
 
-**Key Features & Tasks Completed**
+## How to Use
+1. Execute the database creation script first
+2. Run the data insertion script to populate tables
+3. Execute retrieval queries to view student information
+4. Run analytical queries for reporting insights
 
-**1. Database Creation**
+## Learning Outcomes
+- Understanding relational database design
+- Implementing referential integrity with foreign keys
+- Writing complex SQL queries with multiple joins
+- Performing data analysis using aggregate functions
+- Generating reports from structured data
 
-Designed schema for all three tables
+## Author
+[MANIRATHINAM]
 
-Added primary keys and foreign key constraints
-
-**2. Data Insertion**
-
-Inserted sample data into StudentInfo, CoursesInfo, and EnrollmentInfo
-
-**3. Information Retrieval Queries**
-
-Retrieve complete student details and enrollment status
-
-Retrieve courses for a specific student
-
-Retrieve course and instructor details
-
-Fetch info for multiple courses
-
-Tested and validated all queries
-
-**4. Reporting & Analytics**
-
-Includes SQL queries to:
-
-Count students enrolled per course
-
-List students enrolled in a specific course
-
-Count enrolled students per instructor
-
-Identify students enrolled in multiple courses
-
-Rank courses by enrollment volume
-
-**How to Use This Project**
-
-Open the SQL file in mySQL
-
-Execute tasks sequentially to recreate the system
-
-View query outputs using the provided screenshots
+## Date
+December 2025
 
