@@ -1,12 +1,4 @@
-# Task1-Academic-Management-System
-Design and develop an Academic Management System using SQL. The projects should involve three tables 
-1.StudentInfo 
-2. CoursesInfo 
-3.EnrollmentInfo.
-
-The Aim is to create a system that allows for managing student information and course enrollment.
-
-# Academic Management System
+# Academic-Management-System
 
 ## Project Overview
 A comprehensive SQL-based Academic Management System designed to manage student information, course details, and enrollment records efficiently.
